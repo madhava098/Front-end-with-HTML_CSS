@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Room Finder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Room Finder</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#rooms">Rooms</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <h2>Find Your Perfect Room</h2>
+            <p>Discover the best rooms available in your city</p>
+        </div>
+    </section>
+
+    <section id="search" class="search-section">
+        <h2>Search for Rooms</h2>
+        <form class="search-form">
+            <input type="text" placeholder="Enter location" required>
+            <button type="submit">Search</button>
+        </form>
+    </section>
+
+    <section id="about" class="about-section">
+        <h2>About Us</h2>
+        <p>Room Finder is dedicated to helping you find the perfect room for rent. Whether you are looking for a single room, a shared room, or an apartment, we have listings that fit all your needs.</p>
+    </section>
+
+    <section id="rooms" class="rooms-section">
+        <h2>Available Rooms</h2>
+        <div class="room-listing">
+            <div class="room">
+                <img src="images/room1.jpg" alt="Room 1">
+                <h3>Room 1</h3>
+                <p>Location: AndhraPradesh</p>
+                <p>Price: 5000/month</p>
+            </div>
+            <div class="room">
+                <img src="images/room2.jpg" alt="Room 2">
+                <h3>Room 2</h3>
+                <p>Location: Hyderbad</p>
+                <p>Price: 4000/month</p>
+            </div>
+            <div class="room">
+                <img src="images/room3.jpg" alt="Room 3">
+                <h3>Room 3</h3>
+                <p>Location: Banglore</p>
+                <p>Price: 6000/month</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Room Finder. All rights reserved.</p>
+    </footer>
+</body>
+</html>
